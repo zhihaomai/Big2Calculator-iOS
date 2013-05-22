@@ -1,2 +1,3 @@
-big2-winnings-calculator
+iOS-big2-calculator
 ========================
+coming soon
