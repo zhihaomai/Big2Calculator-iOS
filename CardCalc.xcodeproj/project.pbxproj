@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8959509116DD9D8E00EF36EC /* cardObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959509016DD9D8E00EF36EC /* cardObject.m */; };
+		8959509516DDA25A00EF36EC /* inputScoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959509416DDA25A00EF36EC /* inputScoreTableViewController.m */; };
+		89BB23E016BC90000065EE86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BB23DF16BC90000065EE86 /* UIKit.framework */; };
+		89BB23E216BC90000065EE86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BB23E116BC90000065EE86 /* Foundation.framework */; };
+		89BB23E416BC90000065EE86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BB23E316BC90000065EE86 /* CoreGraphics.framework */; };
+		89BB23EA16BC90000065EE86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89BB23E816BC90000065EE86 /* InfoPlist.strings */; };
+		89BB23EC16BC90000065EE86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BB23EB16BC90000065EE86 /* main.m */; };
+		89BB23F016BC90000065EE86 /* cardCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BB23EF16BC90000065EE86 /* cardCalcAppDelegate.m */; };
+		89BB23F216BC90000065EE86 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BB23F116BC90000065EE86 /* Default.png */; };
+		89BB23F416BC90010065EE86 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BB23F316BC90010065EE86 /* Default@2x.png */; };
+		89BB23F616BC90010065EE86 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BB23F516BC90010065EE86 /* Default-568h@2x.png */; };
+		89BB23F916BC90010065EE86 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BB23F716BC90010065EE86 /* MainStoryboard.storyboard */; };
+		89BB23FC16BC90010065EE86 /* boardingScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BB23FB16BC90010065EE86 /* boardingScreenViewController.m */; };
+		89BB240316BC964E0065EE86 /* home_screen_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BB240216BC964E0065EE86 /* home_screen_pic.png */; };
+		89BB241316BC9A930065EE86 /* inputScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BB241116BC9A930065EE86 /* inputScoresViewController.m */; };
+		89BB245116BC9F710065EE86 /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BB245016BC9F710065EE86 /* settingViewController.m */; };
+		89BB245516BCA51D0065EE86 /* winningsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BB245416BCA51D0065EE86 /* winningsViewController.m */; };
+		89CD150B16F5260800A9BEE5 /* cardCalcIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CD150A16F5260800A9BEE5 /* cardCalcIcon@2x.png */; };
+		89CD150D16F5260D00A9BEE5 /* cardCalcIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CD150C16F5260D00A9BEE5 /* cardCalcIcon.png */; };
+		89E2644216ECFCDA0031F7BB /* cardCalcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2644116ECFCDA0031F7BB /* cardCalcCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8959508F16DD9D8E00EF36EC /* cardObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardObject.h; sourceTree = "<group>"; };
+		8959509016DD9D8E00EF36EC /* cardObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cardObject.m; sourceTree = "<group>"; };
+		8959509316DDA25A00EF36EC /* inputScoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inputScoreTableViewController.h; sourceTree = "<group>"; };
+		8959509416DDA25A00EF36EC /* inputScoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inputScoreTableViewController.m; sourceTree = "<group>"; };
+		89BB23DB16BC90000065EE86 /* CardCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BB23DF16BC90000065EE86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89BB23E116BC90000065EE86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89BB23E316BC90000065EE86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89BB23E716BC90000065EE86 /* CardCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardCalc-Info.plist"; sourceTree = "<group>"; };
+		89BB23E916BC90000065EE86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89BB23EB16BC90000065EE86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89BB23ED16BC90000065EE86 /* CardCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardCalc-Prefix.pch"; sourceTree = "<group>"; };
+		89BB23EE16BC90000065EE86 /* cardCalcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cardCalcAppDelegate.h; sourceTree = "<group>"; };
+		89BB23EF16BC90000065EE86 /* cardCalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardCalcAppDelegate.m; sourceTree = "<group>"; };
+		89BB23F116BC90000065EE86 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		89BB23F316BC90010065EE86 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		89BB23F516BC90010065EE86 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		89BB23F816BC90010065EE86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		89BB23FA16BC90010065EE86 /* boardingScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boardingScreenViewController.h; sourceTree = "<group>"; };
+		89BB23FB16BC90010065EE86 /* boardingScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boardingScreenViewController.m; sourceTree = "<group>"; };
+		89BB240216BC964E0065EE86 /* home_screen_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_screen_pic.png; sourceTree = "<group>"; };
+		89BB241016BC9A930065EE86 /* inputScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inputScoresViewController.h; sourceTree = "<group>"; };
+		89BB241116BC9A930065EE86 /* inputScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inputScoresViewController.m; sourceTree = "<group>"; };
+		89BB244F16BC9F710065EE86 /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
+		89BB245016BC9F710065EE86 /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
+		89BB245316BCA51D0065EE86 /* winningsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winningsViewController.h; sourceTree = "<group>"; };
+		89BB245416BCA51D0065EE86 /* winningsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = winningsViewController.m; sourceTree = "<group>"; };
+		89CD150A16F5260800A9BEE5 /* cardCalcIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardCalcIcon@2x.png"; sourceTree = "<group>"; };
+		89CD150C16F5260D00A9BEE5 /* cardCalcIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardCalcIcon.png; sourceTree = "<group>"; };
+		89E2644016ECFCDA0031F7BB /* cardCalcCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardCalcCell.h; sourceTree = "<group>"; };
+		89E2644116ECFCDA0031F7BB /* cardCalcCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cardCalcCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89BB23D816BC90000065EE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BB23E016BC90000065EE86 /* UIKit.framework in Frameworks */,
+				89BB23E216BC90000065EE86 /* Foundation.framework in Frameworks */,
+				89BB23E416BC90000065EE86 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89BB23D016BC90000065EE86 = {
+			isa = PBXGroup;
+			children = (
+				89CD150C16F5260D00A9BEE5 /* cardCalcIcon.png */,
+				89CD150A16F5260800A9BEE5 /* cardCalcIcon@2x.png */,
+				89BB23E516BC90000065EE86 /* CardCalc */,
+				89BB23DE16BC90000065EE86 /* Frameworks */,
+				89BB23DC16BC90000065EE86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89BB23DC16BC90000065EE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89BB23DB16BC90000065EE86 /* CardCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89BB23DE16BC90000065EE86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89BB23DF16BC90000065EE86 /* UIKit.framework */,
+				89BB23E116BC90000065EE86 /* Foundation.framework */,
+				89BB23E316BC90000065EE86 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89BB23E516BC90000065EE86 /* CardCalc */ = {
+			isa = PBXGroup;
+			children = (
+				89CD150616F4F5A200A9BEE5 /* Deprecated */,
+				89E2643F16ECFCBB0031F7BB /* Views */,
+				89E2643E16ECFC8D0031F7BB /* Controllers */,
+				89E2643D16ECFC7B0031F7BB /* Models */,
+				89BB23EE16BC90000065EE86 /* cardCalcAppDelegate.h */,
+				89BB23EF16BC90000065EE86 /* cardCalcAppDelegate.m */,
+				89BB23F716BC90010065EE86 /* MainStoryboard.storyboard */,
+				89BB23E616BC90000065EE86 /* Supporting Files */,
+			);
+			path = CardCalc;
+			sourceTree = "<group>";
+		};
+		89BB23E616BC90000065EE86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89BB240216BC964E0065EE86 /* home_screen_pic.png */,
+				89BB23E716BC90000065EE86 /* CardCalc-Info.plist */,
+				89BB23E816BC90000065EE86 /* InfoPlist.strings */,
+				89BB23EB16BC90000065EE86 /* main.m */,
+				89BB23ED16BC90000065EE86 /* CardCalc-Prefix.pch */,
+				89BB23F116BC90000065EE86 /* Default.png */,
+				89BB23F316BC90010065EE86 /* Default@2x.png */,
+				89BB23F516BC90010065EE86 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89CD150616F4F5A200A9BEE5 /* Deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				8959509316DDA25A00EF36EC /* inputScoreTableViewController.h */,
+				8959509416DDA25A00EF36EC /* inputScoreTableViewController.m */,
+			);
+			name = Deprecated;
+			sourceTree = "<group>";
+		};
+		89E2643D16ECFC7B0031F7BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8959508F16DD9D8E00EF36EC /* cardObject.h */,
+				8959509016DD9D8E00EF36EC /* cardObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		89E2643E16ECFC8D0031F7BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89BB241016BC9A930065EE86 /* inputScoresViewController.h */,
+				89BB241116BC9A930065EE86 /* inputScoresViewController.m */,
+				89BB244F16BC9F710065EE86 /* settingViewController.h */,
+				89BB245016BC9F710065EE86 /* settingViewController.m */,
+				89BB245316BCA51D0065EE86 /* winningsViewController.h */,
+				89BB245416BCA51D0065EE86 /* winningsViewController.m */,
+				89BB23FA16BC90010065EE86 /* boardingScreenViewController.h */,
+				89BB23FB16BC90010065EE86 /* boardingScreenViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		89E2643F16ECFCBB0031F7BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89E2644016ECFCDA0031F7BB /* cardCalcCell.h */,
+				89E2644116ECFCDA0031F7BB /* cardCalcCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89BB23DA16BC90000065EE86 /* CardCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89BB23FF16BC90010065EE86 /* Build configuration list for PBXNativeTarget "CardCalc" */;
+			buildPhases = (
+				89BB23D716BC90000065EE86 /* Sources */,
+				89BB23D816BC90000065EE86 /* Frameworks */,
+				89BB23D916BC90000065EE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardCalc;
+			productName = CardCalc;
+			productReference = 89BB23DB16BC90000065EE86 /* CardCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89BB23D216BC90000065EE86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = cardCalc;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Zee;
+			};
+			buildConfigurationList = 89BB23D516BC90000065EE86 /* Build configuration list for PBXProject "CardCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89BB23D016BC90000065EE86;
+			productRefGroup = 89BB23DC16BC90000065EE86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89BB23DA16BC90000065EE86 /* CardCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89BB23D916BC90000065EE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BB23EA16BC90000065EE86 /* InfoPlist.strings in Resources */,
+				89BB23F216BC90000065EE86 /* Default.png in Resources */,
+				89BB23F416BC90010065EE86 /* Default@2x.png in Resources */,
+				89BB23F616BC90010065EE86 /* Default-568h@2x.png in Resources */,
+				89BB23F916BC90010065EE86 /* MainStoryboard.storyboard in Resources */,
+				89BB240316BC964E0065EE86 /* home_screen_pic.png in Resources */,
+				89CD150B16F5260800A9BEE5 /* cardCalcIcon@2x.png in Resources */,
+				89CD150D16F5260D00A9BEE5 /* cardCalcIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89BB23D716BC90000065EE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BB23EC16BC90000065EE86 /* main.m in Sources */,
+				89BB23F016BC90000065EE86 /* cardCalcAppDelegate.m in Sources */,
+				89BB23FC16BC90010065EE86 /* boardingScreenViewController.m in Sources */,
+				89BB241316BC9A930065EE86 /* inputScoresViewController.m in Sources */,
+				89BB245116BC9F710065EE86 /* settingViewController.m in Sources */,
+				89BB245516BCA51D0065EE86 /* winningsViewController.m in Sources */,
+				8959509116DD9D8E00EF36EC /* cardObject.m in Sources */,
+				8959509516DDA25A00EF36EC /* inputScoreTableViewController.m in Sources */,
+				89E2644216ECFCDA0031F7BB /* cardCalcCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89BB23E816BC90000065EE86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89BB23E916BC90000065EE86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89BB23F716BC90010065EE86 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89BB23F816BC90010065EE86 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89BB23FD16BC90010065EE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89BB23FE16BC90010065EE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89BB240016BC90010065EE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xtreme Labs Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xtreme Labs Inc.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardCalc/CardCalc-Prefix.pch";
+				INFOPLIST_FILE = "CardCalc/CardCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D282BC1D-E14D-4C38-8C0B-FB8048EE00B6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D282BC1D-E14D-4C38-8C0B-FB8048EE00B6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89BB240116BC90010065EE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xtreme Labs Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xtreme Labs Inc.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardCalc/CardCalc-Prefix.pch";
+				INFOPLIST_FILE = "CardCalc/CardCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D282BC1D-E14D-4C38-8C0B-FB8048EE00B6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D282BC1D-E14D-4C38-8C0B-FB8048EE00B6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89BB23D516BC90000065EE86 /* Build configuration list for PBXProject "CardCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BB23FD16BC90010065EE86 /* Debug */,
+				89BB23FE16BC90010065EE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89BB23FF16BC90010065EE86 /* Build configuration list for PBXNativeTarget "CardCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BB240016BC90010065EE86 /* Debug */,
+				89BB240116BC90010065EE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89BB23D216BC90000065EE86 /* Project object */;
+}
